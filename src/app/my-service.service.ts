@@ -17,10 +17,6 @@ export class PersonService {
   // };
 
   getPeople(){
-    return [this.person];
+    return ["James","Jimmy","Jones","help"];
   };
-
-  ngOnInit() {
-    this.newPerson = this.getPeople();
-  }
 }

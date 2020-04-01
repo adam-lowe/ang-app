@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { CompTwoComponent } from './comp-two/comp-two.component';
-import { CompDefaultComponent } from './comp-default/comp-default.component';
 import { CompThreeComponent } from './comp-three/comp-three.component';
 
 const routes: Routes = [
@@ -12,7 +11,7 @@ const routes: Routes = [
   { path: 'comp-three', component: CompThreeComponent}
 ];
 @NgModule({
-  declarations: [AppComponent, CompTwoComponent, CompDefaultComponent, CompThreeComponent],
+  declarations: [AppComponent, CompTwoComponent, CompThreeComponent],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   exports: [RouterModule],
   providers: [],

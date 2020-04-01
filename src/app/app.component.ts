@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PersonService } from "./my-service.service"
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang-application';
+
+  peopleList: String[];
+
+  constructor(private personService: PersonService) { }
+
+  ngOnInit(): void {
+    // this.personService.getPeople().subscribe(p => this.peopleList = p);
+
+    this.peopleList = this.personService.getPeople();
+  }
+
 }

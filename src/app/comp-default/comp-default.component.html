@@ -1,5 +1,13 @@
 <h1>Welcolme to the site</h1>
 
+<h3>people</h3>
+
+<li *ngFor="let person of peopleList">
+    <ul>{{ person }}</ul>
+</li>
+
+<br>
+
 <router-outlet></router-outlet>
 
 <a href="/comp-two">comp-two</a>
