@@ -1,5 +1,17 @@
-{
-    "name": "Jerold",
-    "age": 80,
-    "email": "j@old.com"
-}
+[
+    {
+        "name": "Jeremy",
+        "age": 20,
+        "email": "jman@dold.com"
+    },
+    {
+        "name": "Jerold",
+        "age": 80,
+        "email": "j@old.com"
+    },
+    {
+        "name": "Jcob",
+        "age": 32,
+        "email": "jnow@ld.com"
+    }
+]
