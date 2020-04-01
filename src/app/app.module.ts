@@ -8,7 +8,8 @@ import { CompDefaultComponent } from './comp-default/comp-default.component';
 import { CompThreeComponent } from './comp-three/comp-three.component';
 
 const routes: Routes = [
-  { path: 'comp-two', component: CompTwoComponent}
+  { path: 'comp-two', component: CompTwoComponent},
+  { path: 'comp-three', component: CompThreeComponent}
 ];
 @NgModule({
   declarations: [AppComponent, CompTwoComponent, CompDefaultComponent, CompThreeComponent],
