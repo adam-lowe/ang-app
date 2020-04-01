@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router'
+import { RouterModule, Routes } from '@angular/router';
 import { CompTwoComponent } from './comp-two/comp-two.component';
-
-
+​
 const routes: Routes = [
-  { path: 'comp-two', component: CompTwoComponent }
-]
-
-
+  { path: 'comp-two', component: CompTwoComponent}
+];
+​
 @NgModule({
+  declarations: [],
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule ]
 })
 export class AppRoutingModule { }
